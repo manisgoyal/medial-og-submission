@@ -1,6 +1,9 @@
 # Medial Submission
 
-This is my submission to medial.app.
+This is my submission to medial.app. I kinda liked the
+project so I might work on it to add templates, improve templates and
+add user templates along with color pickers.
+
 
 ## Features Added
 
