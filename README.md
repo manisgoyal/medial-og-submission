@@ -34,4 +34,4 @@ add user templates along with color pickers.
 `  yarn build
   yarn preview`
 
-[Deployment Link](https://medial-og-submission.onrender.com/)
+[Deployment Link](https://medial-og-submission.vercel.app/)
