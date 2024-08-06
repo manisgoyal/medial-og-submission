@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Medial Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my submission to medial.app.
 
-Currently, two official plugins are available:
+## Features Added
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dark/ Light Mode
+- Tailwind CSS, so responsive
+- Creating the og:image
+- Template for og logic
 
-## Expanding the ESLint configuration
+## Can Expand on
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Multiple templates
+- Color Pickers
+- New Designs
+- Dynamic Content(More Meta Tags)
 
-- Configure the top-level `parserOptions` property like this:
+## Library Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- html-to-image
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## General Instructions
+
+- To test
+  `  yarn
+  yarn dev`
+
+- To build and local preview
+
+`  yarn build
+  yarn preview`
+
+[Deployment Link](https://medial-og-submission.onrender.com/)
